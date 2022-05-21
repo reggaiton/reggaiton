@@ -1,0 +1,287 @@
+.frase {font-family:'Dancing Script', cursive; font-size:36px; text-align: center; color: black;}
+.prefrase {font-family: 'Dancing Script', cursive; font-size:24px; text-align: center; color: black;}
+.firma {font-family: 'Dancing Script', cursive; font-size:16px; text-align: right; color: black; padding-right: 1em;}
+
+body {
+  font-family: 'Titillium Web', sans-serif;
+  }
+
+title {font-family: 'Playfair Display', serif; letter-spacing: 1.5px;}
+
+.title {font-family: 'Playfair Display', serif; letter-spacing: 1.5px}
+
+
+.main a:link {text-decoration: none; color: black;}
+
+header {
+	background-color: #ff3333; 
+}
+.colorwhite { 
+	color: white;
+}
+
+#logo {width:12em; padding-top: 0.5em; float: left; margin-right: 0.6em; 
+}
+
+
+#title {padding-left: 6.5em; padding-top: 0.5em;
+}
+
+.active {background-color: #e60000;
+}
+
+body {
+  background-color:white;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover, .active:active {
+  background-color: #e60000;
+}
+
+.colnews a:hover, .dropdown:hover, .active:active {
+  background-color: grey;
+}
+.boxnews a:hover, .dropdown:hover, .active:active {
+  background-color: grey;
+}
+
+
+.footer a:hover, .dropdown:hover, .active:active {
+  background-color: #e60000;
+}
+
+
+li.dropdown {
+  display: inline-block; 
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px ;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.flaticon {height: 10vh;}
+
+.resizefotocard {width: 300px; height: 200px;}
+
+.border1px {border: 1px solid #000″;}
+
+.col-container {
+  display: table; /* Make the container element behave like a table */
+  width: 100%; /* Set full-width to expand the whole page */
+  background-color: trasparent;
+}
+
+.colsocialhome {margin: 0px;
+  padding:0px;
+  @media only screen and (max-device-height: 180em) and (orientation: portrait)
+  float: left; background-color: #ff3333; width: 15%; height: 90em; text-align: center;
+  display: table-cell; /* Make elements inside the container behave like table cells */
+}
+.colsocialnewcharts {margin: 0px;
+  padding:0px;
+ @media only screen and (max-device-height: 180em) and (orientation: portrait)
+  float: left; background-color: #ff3333; width: 15%; height: 85em; text-align: center;
+  display: table-cell; /* Make elements inside the container behave like table cells */
+}
+.colsocialfrasi {margin: 0px;
+  padding:0px;
+   @media only screen and (max-device-height: 180em) and (orientation: portrait)
+  float: left; background-color: #ff3333; width: 15%; height: 47em; max-height: 100%; text-align: center;
+  display: table-cell; /* Make elements inside the container behave like table cells */
+}
+.colsocialcontact {margin: 0px;
+  padding:0px;
+   @media only screen and (max-device-height: 180em) and (orientation: portrait)
+  float: left; background-color: #ff3333; width: 15%; height: 47em; max-height: 100%; text-align: center;
+  display: table-cell; /* Make elements inside the container behave like table cells */
+}
+
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  padding-left: 1em;
+  padding-right: 1em;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  margin-bottom: 1em;
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: white;
+  color: black;
+  border:2px solid #EEE;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: white;
+  color: black;
+  transform: rotateY(180deg);
+}
+
+.paddingnews {padding-left: 1em; padding-right: 1em;}
+
+.column {margin: 0px;
+  padding:0px;
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.albumlist {font-size: 10px}
+
+.footer {background-color: #ff3333;
+color: white;
+text-align: center;
+padding-top: 1em;
+padding-bottom: 1em;
+font-family: 'Titillium Web', sans-serif;}
+
+.footer a:-webkit-any-link {text-decoration: none; 
+  color: white; text-align: center;}
+
+.paddingnews a:-webkit-any-link {text-decoration: none; 
+  color: black;}
+
+.bordercard {border: 1px solid green;}
+
+
+.frase-card {
+  width: 300px;
+  height: 200px;
+  padding-top:1em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+div.box
+{!important; width /**/:332px;
+ !important; height /**/: 332px;
+ float:left;
+padding: 4px;
+margin: 1em;
+border:3px solid #EEE; border-right:0 solid;
+background:url(gradient.png) repeat-x fixed top left;
+overflow:auto;
+background:url(boxbk.png) no-repeat top left;
+padding:1px 0;
+color: black;}
+div.box-inner
+{overflow:auto;
+margin:25px 24px 0;
+padding-right:2px;
+}
+div.boxnews
+{!important; width /**/:332px;
+ !important; height /**/: 332px;
+ float:left;
+padding: 4px;
+margin: 1em;
+border:3px solid #EEE;
+background:url(gradient.png) repeat-x fixed top left;
+background:url(boxbk.png) no-repeat top left;
+padding:1px 0;
+}
+
+.paddingleft {padding-left: 1em;}
+
+.paddingleftdocumentazione {padding-left: 0.7em;}
+
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+input[type=submit] {
+  background-color: #ff3333;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+
