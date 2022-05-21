@@ -348,15 +348,20 @@
 							    </div>
 						</div>
 					</div>
-					<a href="https://reggaiton.github.io/reggaiton/fraseprovenzaita.html" 
-						  onclick="
-						    window.open(
-						      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href), 
-						      'facebook-share-dialog', 
-						      'width=626,height=436'); 
-						    return false;">
-						  Share on Facebook
-					</a>
+					<div id="fb-root"></div>
+						<script>(function(d, s, id) {
+						var js, fjs = d.getElementsByTagName(s)[0];
+						if (d.getElementById(id)) return;
+						js = d.createElement(s); js.id = id;
+						js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+						fjs.parentNode.insertBefore(js, fjs);
+						}(document, 'script', 'facebook-jssdk'));</script>
+					<div class="paddingnews">
+						<div class="fb-share-button" 
+						data-href="https://reggaiton.github.io/reggaiton/fraseprovenzaita.html" 
+						data-layout="button_count">
+						</div>
+					</div>
 				</div>
 				<div class="boxnews">
 					<div class="paddingnews">
