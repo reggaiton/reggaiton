@@ -230,7 +230,7 @@ div.box
  !important; height /**/: 21em;
  float:left;
 padding: 4px;
-margin: 1em;
+margin: 0.5em;
 border:3px solid #EEE; border-right:0 solid;
 background:url(gradient.png) repeat-x fixed top left;
 overflow:auto;
@@ -247,14 +247,14 @@ div.boxnews
  !important; height /**/: 21em;
  float:left;
 padding: 4px;
-margin: 1em;
+margin: 0.5em;
 border:3px solid #EEE;
 background:url(gradient.png) repeat-x fixed top left;
 background:url(boxbk.png) no-repeat top left;
 padding:1px 0;
 }
 
-.paddingleft {padding-left: 1em;}
+.paddingleft {padding-left: 0.5em;}
 
 .paddingleftdocumentazione {padding-left: 0.7em;}
 
