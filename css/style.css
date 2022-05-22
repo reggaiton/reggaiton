@@ -98,7 +98,7 @@ li.dropdown {
 
 .flaticon {height: 10vh;}
 
-.resizefotocard {width: 18em;
+.resizefotocard {width: 16em;
   height: 12em;}
 
 .border1px {border: 1px solid #000″;}
@@ -138,7 +138,7 @@ li.dropdown {
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
   background-color: transparent;
-  width: 18em;
+  width: 16em;
   height: 12em;
   padding-left: 1em;
   padding-right: 1em;
@@ -218,7 +218,7 @@ font-family: 'Titillium Web', sans-serif;}
 
 
 .frase-card {
-  width: 18em;
+  width: 17em;
   height: 12em;
   padding-top:1em;
   padding-left: 1em;
@@ -226,7 +226,7 @@ font-family: 'Titillium Web', sans-serif;}
 }
 
 div.box
-{!important; width /**/:20em;
+{!important; width /**/:18em;
  !important; height /**/: 21em;
  float:left;
 padding: 4px;
@@ -243,7 +243,7 @@ margin:25px 24px 0;
 padding-right:2px;
 }
 div.boxnews
-{!important; width /**/:20em;
+{!important; width /**/:18em;
  !important; height /**/: 21em;
  float:left;
 padding: 4px;
