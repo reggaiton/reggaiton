@@ -256,7 +256,7 @@ padding:1px 0;
 
 .paddingleft {padding-left: 0.5em;}
 
-.paddingleftdocumentazione {padding-left: 0.7em;}
+.paddingleftdocumentazione {padding-left: 0.2em;}
 
 input[type=text], select, textarea {
   width: 100%; /* Full width */
@@ -285,4 +285,6 @@ input[type=submit]:hover {
   padding: 20px;
 }
 
+.fotogoogleanalytics {width: 60em; height: 100%;
+ @media only screen and (max-device-width: 18em) and (orientation: portrait);}
 
